@@ -1,0 +1,28 @@
+[application]
+DefaultPageSize = 300
+DisableSidebar = false
+SidebarOverlay = false
+
+[[database]]
+Name = 'WAYSLINK RIDE SHARING Development database'
+URL = 'postgres://postgres:postgres@localhost:5432/wayslink_ride_sharing_db?sslmode=disable'
+Provider = 'postgres'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'wayslink_ride_sharing_db'
+URLParams = ''
+Commands = []
+
+[[database]]
+Name = 'AOIKE LMS Development database'
+URL = 'postgres://postgres:postgres@localhost:5432/aoike_lms?sslmode=disable'
+Provider = 'postgres'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'aoike_lms'
+URLParams = ''
+Commands = []
